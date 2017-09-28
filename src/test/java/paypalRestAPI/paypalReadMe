@@ -1,0 +1,22 @@
+use access token to create a payment in paypal
+post response body with token
+
+{
+    "scope": "https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*",
+    "nonce": "2017-08-29T13:07:33ZXPifbfyMPRPE65z4bbKMA1_95MLTZ3aACzuQPeoHNS4",
+    "access_token": "A21AAFAKoS6unojLweHsURB0FJYJynToWS3i81DEkh31nXvWcRl-q-BgdI7Kjy-HbNTS8f5ZD7GWwH3ufJyzPPmC72i6DiGEQ",
+    "token_type": "Bearer",
+    "app_id": "APP-80W284485P519543T",
+    "expires_in": 32400
+}
+
+
+new access_token
+{
+    "scope": "https://uri.paypal.com/services/subscriptions https://api.paypal.com/v1/payments/.* https://api.paypal.com/v1/vault/credit-card https://uri.paypal.com/services/applications/webhooks openid https://uri.paypal.com/payments/payouts https://api.paypal.com/v1/vault/credit-card/.*",
+    "nonce": "2017-09-22T08:02:04ZbXmKvPN_IkxvmY-R_ObU1GcmbEC5eNHAN8C1M22lBac",
+    "access_token": "A21AAGXRQ-3oKnbxhAVTktVwQ9wdDLbRryhdRzFR1-tI3TLXcRpbn7G5pyy9RCQdddvlg6icHaUcg3Qg8eZrkheTe6ZisRpxA",
+    "token_type": "Bearer",
+    "app_id": "APP-80W284485P519543T",
+    "expires_in": 32398
+}
