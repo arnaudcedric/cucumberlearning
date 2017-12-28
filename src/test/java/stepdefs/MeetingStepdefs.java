@@ -19,6 +19,7 @@ public class MeetingStepdefs {
             meeting.setEvent(this.events.get(meeting.getEventId()));
             System.out.println(meeting.getId()+" "+meeting.getName()+" \n"+meeting.getCourse()+" \n"+ meeting.getClasse()+" \n"+meeting.getEvent());
         }
+        
     }
 
     @Given("^I have courses with id (\\d+)$")
