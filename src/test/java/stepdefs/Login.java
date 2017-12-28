@@ -38,7 +38,7 @@ public class Login  {
 
         for (Credentials credential : credentials){
             System.out.println();
-            System.out.print("Credentials : " + credential.getUsername() +" "+ credential.getPassword());
+            System.out.print("Credentials : " + credential.getUsername() +" "+ credential.getPassword() +" "+ credential.getAddress());
             System.out.println();
         }
 
@@ -60,6 +60,11 @@ public class Login  {
     public class Credentials{
         private String username;
         private String password;
+        private String address;
+
+        public String getAddress() {
+            return address;
+        }
 
         public String getUsername() {
             return username;
@@ -77,13 +82,7 @@ public class Login  {
             this.password = password;
         }
 
-        @Override
-        public String toString() {
-            return "Credentials{" +
-                    "username='" + username + '\'' +
-                    ", password='" + password + '\'' +
-                    '}';
-        }
+
     }
 
 }

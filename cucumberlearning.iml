@@ -14,9 +14,6 @@
     <orderEntry type="library" name="Maven: net.masterthought:cucumber-reporting:2.8.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.6.2" level="project" />
     <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.6.2" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.1" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.velocity:velocity:1.7" level="project" />
     <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.1" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.4" level="project" />
@@ -86,6 +83,14 @@
     <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy-json:2.4.4" level="project" />
     <orderEntry type="library" name="Maven: com.jayway.restassured:rest-assured-common:2.9.0" level="project" />
     <orderEntry type="library" name="Maven: com.jayway.restassured:xml-path:2.9.0" level="project" />
+    <orderEntry type="library" name="Maven: org.json:json:20160807" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.7" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.8.10" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.8.10" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.woodstox:stax2-api:3.1.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.woodstox:woodstox-core:5.0.3" level="project" />
   </component>
 </module>

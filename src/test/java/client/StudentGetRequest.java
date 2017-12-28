@@ -9,9 +9,9 @@ import static com.jayway.restassured.RestAssured.given;
 public class StudentGetRequest  {
     private final Logger log = Logger.getLogger(getClass().getName());
 
-    RestAssuredClient restClient;
+    StudentRestAssuredClient restClient;
     public StudentGetRequest(){
-        restClient = RestAssuredClient.getRestAssuredClientInstance();
+        restClient = StudentRestAssuredClient.getStudentRestAssuredClientInstance();
     }
 
 //    @BeforeTest

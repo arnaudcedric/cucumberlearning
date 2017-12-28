@@ -25,7 +25,7 @@ import static org.testng.Assert.assertEquals;
 public class API1 {
     ValidatableResponse validatableResponse;
     Response response;
-//    RestAssuredClient restClient;
+//    StudentRestAssuredClient restClient;
     Gson gson = new Gson();
     //this is test 2
     Gson gson1 = new GsonBuilder().setPrettyPrinting().create();

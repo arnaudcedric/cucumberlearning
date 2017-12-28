@@ -1,6 +1,6 @@
 package stepdefs;
 
-import client.RestAssuredClient;
+import client.StudentRestAssuredClient;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import static org.hamcrest.CoreMatchers.is;
@@ -8,9 +8,9 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class StudentStepdef {
 
-    RestAssuredClient restClient;
+    StudentRestAssuredClient restClient;
     public StudentStepdef(){
-        restClient = RestAssuredClient.getRestAssuredClientInstance();
+        restClient = StudentRestAssuredClient.getStudentRestAssuredClientInstance();
     }
     @Given("^user make an API Get request to retrieve student \"(.*)\"$")
     public void get(String studentNumber){

@@ -1,14 +1,14 @@
 package stepdefs;
 
-import client.RestAssuredClient;
+import client.StudentRestAssuredClient;
 import cucumber.api.java.en.Given;
 
 
 public class StudentWithCourse {
 
-    RestAssuredClient restClient;
+    StudentRestAssuredClient restClient;
     public StudentWithCourse(){
-        restClient = RestAssuredClient.getRestAssuredClientInstance();
+        restClient = StudentRestAssuredClient.getStudentRestAssuredClientInstance();
     }
 
     @Given("^I make an API Get request to retrieve student \"(.*)\" and enter parameters as \"(.*)\" and \"(.*)\" with limit value \"(.*)\"$")

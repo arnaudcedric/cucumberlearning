@@ -1,10 +1,10 @@
 package stepdefs;
 
-import client.RestAssuredClient;
+import client.StudentRestAssuredClient;
 import com.google.gson.Gson;
 import cucumber.api.java.en.*;
 import studentApp.Type.CourseType;
-import studentApp.pojo.StudentPOJO;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,11 +13,11 @@ import static org.hamcrest.MatcherAssert.assertThat;
 
 public class CreateNewStudent {
 
-    RestAssuredClient restClient;
+    StudentRestAssuredClient restClient;
     Gson gson;
     List<String> courses;
     public CreateNewStudent(){
-        restClient = RestAssuredClient.getRestAssuredClientInstance();
+        restClient = StudentRestAssuredClient.getStudentRestAssuredClientInstance();
         gson = new Gson();
         courses = new ArrayList<>();
     }

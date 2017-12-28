@@ -14,7 +14,7 @@ public class Hook  {
 //        this.baseUtil = baseUtil;
 //    }
 
-    @Before()
+//    @Before()
     public void initialisation(Scenario scenario){
 
         System.out.println("opening FireFox");
@@ -26,7 +26,7 @@ public class Hook  {
 //        System.out.println("getSourceTagNames "+scenario.getSourceTagNames().toArray());
 
     }
-    @After
+//    @After
     public void tearDown(){
         System.out.println();
         System.out.println("closeing Firefox");
